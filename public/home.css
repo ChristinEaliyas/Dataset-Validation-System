@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+body{
+    min-height: 100vh;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#main-heading{
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(120deg, #ffffff, #ffffff );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.input-buttons form{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.input-buttons form button{
+    width: 250px;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.data-content{
+    background-color: #1429357c;
+    border-radius: 25px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.data-content .row{
+    width: 92%;
+}
+.data-content .row > * {
+    margin: 20px; 
+    padding: 10px;
+}
+.data-field textarea{
+    width: 100%;    
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    display: flex;
+    align-items: center;
+    overflow-wrap: break-word;
+}
+a{
+    color: #fff;
+}
